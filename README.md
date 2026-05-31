@@ -21,6 +21,72 @@ Bu uygulama, mobil alışveriş deneyimini en sade ve estetik haliyle sunmak iç
 * **Framework:** Google Flutter (Yüksek performanslı arayüz motoru)
 * **Veri Kaynağı:** WantAPI (REST API servisleri)
 * **Paketler:** `http` kütüphanesi üzerinden asenkron veri iletişimi.
+* **State Management:** Provider pattern ile durum yönetimi
+
+---
+
+## 📋 Flutter Sürümü ve Gereksinimler
+
+* **Flutter Sürümü:** 3.13.0 ve üzeri
+* **Dart Sürümü:** 3.1.0 ve üzeri
+* **Min SDK (Android):** API Level 21 (Android 5.0)
+* **Min SDK (iOS):** iOS 11.0 ve üzeri
+* **Desteklenen Platformlar:** Android, iOS, Web, Windows, Linux, macOS
+
+---
+
+## 🚀 Projeyi Çalıştırma Adımları
+
+### 1. Ön Koşullar
+Aşağıdaki programlar bilgisayarınızda kurulu olmalıdır:
+- **Git** (versiyon kontrol için)
+- **Flutter SDK** (https://flutter.dev/docs/get-started/install adresinden indirebilirsiniz)
+- **Android Studio** veya **VS Code** (IDE olarak)
+- **Emulator** veya **Fiziksel cihaz** (test için)
+
+### 2. Projeyi İndirme
+```bash
+git clone <proje-repository-url>
+cd mini_katalog
+```
+
+### 3. Bağımlılıkları Yükleme
+```bash
+flutter pub get
+```
+
+### 4. Projeyi Çalıştırma
+```bash
+# Tüm cihazları listele
+flutter devices
+
+# Belirli bir cihazda çalıştır
+flutter run -d <device-id>
+
+# Bağlı ilk cihazda çalıştır
+flutter run
+```
+
+### 5. Üretim Build'i Oluşturma
+
+**Android için:**
+```bash
+flutter build apk --release
+# Çıktı: build/app/outputs/flutter-apk/app-release.apk
+```
+
+**iOS için:**
+```bash
+flutter build ios --release
+# Çıktı: build/ios/iphoneos/Runner.app
+```
+
+### 6. Geliştirme Sırasında Hot Reload Kullanma
+```bash
+flutter run
+# Kodu düzenleyin ve Ctrl+S (veya Cmd+S) tuşuna basın = Hot Reload
+# Değişiklikler anında görüntülenir
+```
 
 ---
 
