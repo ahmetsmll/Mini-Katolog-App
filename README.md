@@ -46,7 +46,7 @@ Aşağıdaki programlar bilgisayarınızda kurulu olmalıdır:
 
 ### 2. Projeyi İndirme
 ```bash
-git clone <proje-repository-url>
+git clone <https://github.com/ahmetsmll/Mini-Katolog-App>
 cd mini_katalog
 ```
 
@@ -57,13 +57,13 @@ flutter pub get
 
 ### 4. Projeyi Çalıştırma
 ```bash
-# Tüm cihazları listele
+
 flutter devices
 
-# Belirli bir cihazda çalıştır
+
 flutter run -d <device-id>
 
-# Bağlı ilk cihazda çalıştır
+
 flutter run
 ```
 
@@ -72,13 +72,13 @@ flutter run
 **Android için:**
 ```bash
 flutter build apk --release
-# Çıktı: build/app/outputs/flutter-apk/app-release.apk
+
 ```
 
 **iOS için:**
 ```bash
 flutter build ios --release
-# Çıktı: build/ios/iphoneos/Runner.app
+
 ```
 
 ### 6. Geliştirme Sırasında Hot Reload Kullanma
